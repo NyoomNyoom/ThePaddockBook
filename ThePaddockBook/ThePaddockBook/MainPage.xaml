@@ -13,6 +13,13 @@
             x:Name="AuxiloryInformation"
             Text="24 Degrees 2:34pm"
             Grid.Row="0" />
+        
+        <!-- Image of paddock goes here -->
+
+        <Label
+            x:Name="CurrentPaddock"
+            Text="The milking herd is in paddock 1"
+            Grid.Row="2" />
 
     </Grid>
 </ContentPage>
