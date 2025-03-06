@@ -7,7 +7,12 @@
     <Grid>
         <Label   
             x:Name="WelcomeMessage"
-            Text="Good Afternoon User" />
+            Text="Good Afternoon User" 
+            Grid.Row="0" />
+        <Label
+            x:Name="AuxiloryInformation"
+            Text="24 Degrees 2:34pm"
+            Grid.Row="0" />
 
     </Grid>
 </ContentPage>
