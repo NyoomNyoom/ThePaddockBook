@@ -1,32 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ThePaddockBook.MainPage">
+             x:Class="ThePaddockBook.MainPage"
+             NavigationPage.HasNavigationBar="False">
 
-    <ScrollView>
-        <VerticalStackLayout
-            Padding="30,0"
-            Spacing="25">
-            
-            <Label
-                Text="Good Evening user"
-                Style="{StaticResource Headline}"
-                SemanticProperties.HeadingLevel="Level1"
-                x:Name="WelcomeMessage" />
+    <Grid>
+        <Label   
+            x:Name="WelcomeMessage"
+            Text="Good Afternoon User" />
 
-            <Label
-                Text="Weather"
-                Style="{StaticResource SubHeadline}"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="The weather today is ___." 
-                x:Name="WeatherInfographic" />
-            <Label
-                Text="Time - Date"
-                Style="{StaticResource SubHeadline}"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="The time is ___ and today's date is ___."
-                x:Name="TimeDateInfograpgic" />
-        </VerticalStackLayout>
-    </ScrollView>
-
+    </Grid>
 </ContentPage>
