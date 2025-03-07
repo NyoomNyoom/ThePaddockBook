@@ -5,6 +5,16 @@
              NavigationPage.HasNavigationBar="False">
 
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        
         <Label   
             x:Name="WelcomeMessage"
             Text="Good Afternoon User" 
