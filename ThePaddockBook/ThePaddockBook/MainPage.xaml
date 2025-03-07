@@ -38,5 +38,15 @@
             Text="Paddock 3 "
             Grid.Row="4" />
 
+        <Label
+            x:Name="RotationTitle"
+            Text="Rotation"
+            Grid.Row="6" />
+        <Label
+            x:Name="RotationDescription"
+            Text="The next paddock in rotation is paddock 2"
+            Grid.Row="6" />
+        <!-- Image of next paddock goes here -->
+
     </Grid>
 </ContentPage>
