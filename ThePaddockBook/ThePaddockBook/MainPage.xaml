@@ -21,5 +21,22 @@
             Text="The milking herd is in paddock 1"
             Grid.Row="2" />
 
+        <Label
+            x:Name="TaskTitle"
+            Text="Tasks: "
+            Grid.Row="4" />
+        <Label
+            x:Name="Worker1Name"
+            Text="Worker 1" 
+            Grid.Row="4" />
+        <Label
+            x:Name="Worker1Task"
+            Text="Spray Fence Line "
+            Grid.Row="4" />
+        <Label
+            x:Name="Worker1Location"
+            Text="Paddock 3 "
+            Grid.Row="4" />
+
     </Grid>
 </ContentPage>
