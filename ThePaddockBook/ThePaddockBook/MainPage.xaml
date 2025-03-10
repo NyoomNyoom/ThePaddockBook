@@ -3,60 +3,40 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ThePaddockBook.MainPage"
              NavigationPage.HasNavigationBar="False">
-
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="20" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="20" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="20" />
-            <RowDefinition Height="Auto" />
-        </Grid.RowDefinitions>
-        
+    <StackLayout>
         <Label   
-            x:Name="WelcomeMessage"
-            Text="Good Afternoon User" 
-            Grid.Row="0" />
-        <Label
+         x:Name="WelcomeMessage"
+         Text="Good Afternoon User" />
+        <Label 
             x:Name="AuxiloryInformation"
-            Text="24 Degrees 2:34pm"
-            Grid.Row="0" />
-        
+            Text="24 Degrees 2:34pm" />
+
         <!-- Image of paddock goes here -->
 
         <Label
             x:Name="CurrentPaddock"
-            Text="The milking herd is in paddock 1"
-            Grid.Row="2" />
+            Text="The milking herd is in paddock 1" />
 
         <Label
             x:Name="TaskTitle"
-            Text="Tasks: "
-            Grid.Row="4" />
-        <Label
-            x:Name="Worker1Name"
-            Text="Worker 1" 
-            Grid.Row="4" />
-        <Label
-            x:Name="Worker1Task"
-            Text="Spray Fence Line "
-            Grid.Row="4" />
+            Text="Tasks: "  />
+        
+        <Label 
+            x:Name="Worker1Name" 
+            Text="Worker 1"  />
+        <Label 
+            x:Name="Worker1Task" 
+            Text="Spray Fence Line "  />
         <Label
             x:Name="Worker1Location"
-            Text="Paddock 3 "
-            Grid.Row="4" />
+            Text="Paddock 3 " />
 
         <Label
             x:Name="RotationTitle"
-            Text="Rotation"
-            Grid.Row="6" />
+            Text="Rotation" />
         <Label
             x:Name="RotationDescription"
-            Text="The next paddock in rotation is paddock 2"
-            Grid.Row="6" />
+            Text="The next paddock in rotation is paddock 2" />
         <!-- Image of next paddock goes here -->
-
-    </Grid>
+    </StackLayout>
 </ContentPage>
