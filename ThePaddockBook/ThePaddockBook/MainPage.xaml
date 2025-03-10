@@ -4,12 +4,23 @@
              x:Class="ThePaddockBook.MainPage"
              NavigationPage.HasNavigationBar="False">
     <StackLayout>
-        <Label   
-         x:Name="WelcomeMessage"
-         Text="Good Afternoon User" />
-        <Label 
-            x:Name="AuxiloryInformation"
-            Text="24 Degrees 2:34pm" />
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            
+            <Label   
+                x:Name="WelcomeMessage"
+                Text="Good Afternoon User" 
+                Grid.Column="0"/>
+            <Label 
+                x:Name="AuxiloryInformation"
+                Text="24 Degrees 2:34pm" 
+                Grid.Column="2"/>
+        </Grid>
+
 
         <!-- Image of paddock goes here -->
 
