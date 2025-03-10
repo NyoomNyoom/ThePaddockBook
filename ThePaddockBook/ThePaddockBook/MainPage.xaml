@@ -4,7 +4,7 @@
              x:Class="ThePaddockBook.MainPage"
              NavigationPage.HasNavigationBar="False">
     <StackLayout>
-        <Grid>
+        <Grid BackgroundColor="LightGray">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto" />
                 <ColumnDefinition Width="*" />
@@ -14,11 +14,13 @@
             <Label   
                 x:Name="WelcomeMessage"
                 Text="Good Afternoon User" 
-                Grid.Column="0"/>
+                Grid.Column="0"
+                TextColor="Black" />
             <Label 
                 x:Name="AuxiloryInformation"
                 Text="24 Degrees 2:34pm" 
-                Grid.Column="2"/>
+                Grid.Column="2"
+                TextColor="Black" />
         </Grid>
 
 
