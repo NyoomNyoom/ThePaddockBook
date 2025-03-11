@@ -6,24 +6,20 @@
     <StackLayout>
         <Grid BackgroundColor="LightGray">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="Auto" />
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="Auto" />
             </Grid.ColumnDefinitions>
             
-            <Label   
-                x:Name="WelcomeMessage"
-                Text="Good Afternoon User" 
-                Grid.Column="0"
-                TextColor="Black" />
             <Label 
                 x:Name="AuxiloryInformation"
                 Text="24 Degrees 2:34pm" 
-                Grid.Column="2"
+                Grid.Column="1"
                 TextColor="Black" />
         </Grid>
 
-
+        <Label   
+                x:Name="WelcomeMessage"
+                Text="Good Afternoon User" />
         <!-- Image of paddock goes here -->
 
         <Label
