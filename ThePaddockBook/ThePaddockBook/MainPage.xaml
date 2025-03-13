@@ -16,36 +16,29 @@
                 Grid.Column="1"
                 TextColor="Black" />
         </Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="60%" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            
+            <VerticalStackLayout>
+                <Label x:Name="WelcomeMessage" Text="Good Afternoon User" />
+                <!-- Image of paddock goes here -->
 
-        <Label   
-                x:Name="WelcomeMessage"
-                Text="Good Afternoon User" />
-        <!-- Image of paddock goes here -->
+                <Label x:Name="CurrentPaddock" Text="The milking herd is in paddock 1" />
 
-        <Label
-            x:Name="CurrentPaddock"
-            Text="The milking herd is in paddock 1" />
+                <Label x:Name="TaskTitle" Text="Tasks: "  />
 
-        <Label
-            x:Name="TaskTitle"
-            Text="Tasks: "  />
-        
-        <Label 
-            x:Name="Worker1Name" 
-            Text="Worker 1"  />
-        <Label 
-            x:Name="Worker1Task" 
-            Text="Spray Fence Line "  />
-        <Label
-            x:Name="Worker1Location"
-            Text="Paddock 3 " />
+                <Label x:Name="Worker1Name" Text="Worker 1"  />
+                <Label x:Name="Worker1Task" Text="Spray Fence Line "  />
+                <Label x:Name="Worker1Location" Text="Paddock 3 " />
 
-        <Label
-            x:Name="RotationTitle"
-            Text="Rotation" />
-        <Label
-            x:Name="RotationDescription"
-            Text="The next paddock in rotation is paddock 2" />
-        <!-- Image of next paddock goes here -->
+                <Label x:Name="RotationTitle" Text="Rotation" />
+                <Label x:Name="RotationDescription" Text="The next paddock in rotation is paddock 2" />
+                <!-- Image of next paddock goes here -->
+            </VerticalStackLayout>
+        </Grid>
     </StackLayout>
 </ContentPage>
