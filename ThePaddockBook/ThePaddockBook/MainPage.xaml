@@ -18,12 +18,12 @@
         </Grid>
         <Grid>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="60%" />
-                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="0.2*" />
+                <ColumnDefinition Width="0.6*" />
+                <ColumnDefinition Width="0.2*" />
             </Grid.ColumnDefinitions>
             
-            <VerticalStackLayout>
+            <VerticalStackLayout Grid.Column="1" BackgroundColor="LimeGreen">
                 <Label x:Name="WelcomeMessage" Text="Good Afternoon User" />
                 <!-- Image of paddock goes here -->
 
