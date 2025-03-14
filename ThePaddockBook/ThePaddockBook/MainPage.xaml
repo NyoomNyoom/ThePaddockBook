@@ -25,7 +25,7 @@
             
             <VerticalStackLayout Grid.Column="1" BackgroundColor="LimeGreen">
                 <Label x:Name="WelcomeMessage" Text="Good Afternoon User" SemanticProperties.HeadingLevel="Level1" FontSize="Header"/>
-                <!-- Image of paddock goes here -->
+                <Image Source="paddock_one.png" WidthRequest="200" HeightRequest="200" />
 
                 <Label x:Name="CurrentPaddock" Text="The milking herd is in paddock 1" />
 
