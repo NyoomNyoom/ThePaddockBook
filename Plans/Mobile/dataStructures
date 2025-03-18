@@ -19,3 +19,9 @@ Farm
 - Locations
   - list of Location class
 
+Location
+- Site
+  - Site Name
+  - Site GPS location
+- Paddock class
+
