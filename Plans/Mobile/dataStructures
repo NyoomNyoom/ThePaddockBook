@@ -9,4 +9,8 @@ Variables
   - Farm (I.E Runoff/main milking farm)
   - Paddock
 
-
+User
+- Farm
+- Level (Relief milker, worker, 2IC, Manager, etc).
+- Name
+- Qualifications (MEWP, Poision Handling, Heights / Harness training).
