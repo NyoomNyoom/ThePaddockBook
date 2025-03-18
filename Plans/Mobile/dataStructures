@@ -5,12 +5,17 @@ Variables
 - Assignee
 - Assigner
 - Completion due date
-- Location
-  - Farm (I.E Runoff/main milking farm)
-  - Paddock
+- Location.Site.Paddock
 
 User
 - Farm
 - Level (Relief milker, worker, 2IC, Manager, etc).
 - Name
 - Qualifications (MEWP, Poision Handling, Heights / Harness training).
+
+Farm
+- Name
+- Employees
+- Locations
+  - list of Location class
+
