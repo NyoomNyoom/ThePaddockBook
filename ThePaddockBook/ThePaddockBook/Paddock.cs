@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ThePaddockBook
 {
-    class Paddock
+    public class Paddock
     {
         private readonly string name;
         private readonly float[] position;
