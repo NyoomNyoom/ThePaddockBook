@@ -8,5 +8,13 @@ namespace ThePaddockBook
 {
     class Paddock
     {
+        private readonly string name;
+        private readonly float[] position;
+
+        Paddock(String nameIn, float[] positionIn)
+        {
+            this.name = nameIn;
+            this.position = positionIn;
+        }
     }
 }
