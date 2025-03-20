@@ -6,17 +6,12 @@ using System.Threading.Tasks;
 
 namespace ThePaddockBook
 {
-    class Location
+    class Location(String NameIn, float[] positionIn)
     {
-        private readonly string name;
-        private readonly float[] position;
-        private readonly List<Paddock> paddocks = new List<Paddock>();
+        private readonly string name = NameIn;
+        private readonly float[] position = positionIn;
+        private readonly List<Paddock> paddocks = [];
 
-        public Location(String NameIn, float[] positionIn)
-        {
-            this.name = NameIn;
-            this.position = positionIn;
-        }
 
         public void addPaddock(Paddock paddock)
         {
