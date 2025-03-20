@@ -1,5 +1,4 @@
 Task/Job
-Variables
 - Farm (I.e. Flints bush Dairies)
 - Information
 - Assignee
