@@ -11,6 +11,8 @@ User
 - Level (Relief milker, worker, 2IC, Manager, etc).
 - Name
 - Qualifications (MEWP, Poision Handling, Heights / Harness training).
+- Email
+- Phone
 
 Farm
 - Name
