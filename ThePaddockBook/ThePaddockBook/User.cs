@@ -14,7 +14,7 @@ namespace ThePaddockBook
         private readonly String Phone = phoneIn;
         private readonly List<String> Qualifications = new(); 
 
-        public void setLevel(String levelIn)
+        public void SetLevel(String levelIn)
         {
             Level = levelIn;
         }
