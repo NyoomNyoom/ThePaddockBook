@@ -6,12 +6,17 @@ using System.Threading.Tasks;
 
 namespace ThePaddockBook
 {
-    class User
+    class User(String nameIn, String emailIn, String phoneIn)
     {
-        private readonly String Name;
-        private readonly String Level;
-        private readonly String Email;
-        private readonly String Phone;
+        private readonly String Name = nameIn;
+        private String Level = "";
+        private readonly String Email = emailIn;
+        private readonly String Phone = phoneIn;
         private readonly List<String> Qualifications = new(); 
+
+        public void setLevel(String levelIn)
+        {
+            Level = levelIn;
+        }
     }
 }
