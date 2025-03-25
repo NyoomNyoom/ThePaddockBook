@@ -40,10 +40,10 @@
                 <Image Source="paddock_one.png" WidthRequest="200" HeightRequest="200" />
 
                 <StackLayout x:Name="NavBar" Grid.Column="1" Orientation="Horizontal" BackgroundColor="LightGray" IsVisible="True">
-                    <Button Text="Collection WIP" HorizontalOptions="CenterAndExpand" />
-                    <Button Text="Decks WIP" HorizontalOptions="CenterAndExpand" />
-                    <Button Text="Deck Builder WIP" HorizontalOptions="CenterAndExpand" />
-                    <Button Text="Tracker" HorizontalOptions="CenterAndExpand" />
+                    <Button Text="Home" HorizontalOptions="CenterAndExpand" />
+                    <Button Text="Herd" HorizontalOptions="CenterAndExpand" />
+                    <Button Text="Rotation" HorizontalOptions="CenterAndExpand" />
+                    <Button Text="Tasks" HorizontalOptions="CenterAndExpand" Clicked="Task_Clicked"/>
                 </StackLayout>
             </VerticalStackLayout>
         </Grid>
