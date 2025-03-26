@@ -13,5 +13,4 @@
             await Navigation.PushAsync(new TaskPage());
         }
     }
-
 }
